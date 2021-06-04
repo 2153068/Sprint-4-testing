@@ -4,10 +4,9 @@
   "description": "learn test driven development (TDD) using QUnit!",
   "main": "index.html",
   "scripts": {
-    "test": "istanbul cover test.js",
     "open-coverage": "open ./coverage/lcov-report/index.html",
     "start": "live-server --port=8000",
-    "docs": "jsdoc change.js",
+    "docs": "jsdoc testing.js",
     "open-docs": "open ./out/global.html"
   },
   "repository": {
